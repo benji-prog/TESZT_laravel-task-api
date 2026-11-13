@@ -106,7 +106,9 @@
         }
     },
     "config": {
-        "platform": { "php": "8.3.29" },
+        "platform": {
+            "php": "8.3.29"
+        },
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
