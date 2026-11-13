@@ -8,6 +8,5 @@ return [
     'allowed_headers' => ['*'], // Fontos, hogy minden fejlécet engedjen
     'exposed_headers' => [],
     'max_age' => 0,
-    'supports_credentials' => true, // Ez kell az Axios-szal való együttműködéshez
+    'supports_credentials' => false, // Ez kell az Axios-szal való együttműködéshez
 ];
-
